@@ -12,3 +12,5 @@ Vertical and horizontal CollectionView structures were used on the same page.
 The cell structure for the CollectionView was created using xib.
 
 Some parts developed with programmatically UI. 
+
+This project contains Unit Tests.
