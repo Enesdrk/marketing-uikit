@@ -1,4 +1,4 @@
-# marketing-uikit
+# marketing-app-uikit
 Marketing Design App in UIKit
 
 Designed the structure of a shopping application in Swift-UIKit. 
