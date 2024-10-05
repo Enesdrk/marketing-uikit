@@ -1,0 +1,1308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3710C62CAEB3DC00B626B6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BC3710C52CAEB3DC00B626B6 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC04D1AC2CB14AF500A7AC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+		BC04D1BD2CB14B4200A7AC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+		BC04D1CB2CB14BC400A7AC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+		BC04D1DC2CB150FB00A7AC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+		BC04D1EA2CB1513B00A7AC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+		BC04D1F72CB1515B00A7AC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+		BC1E79F22CAD899F002D0646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+		BC1E79FC2CAD899F002D0646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E79D32CAD899D002D0646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E79DA2CAD899D002D0646;
+			remoteInfo = "project-akakce";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC3710CA2CAEB3EC00B626B6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC04D1A82CB14AF500A7AC42 /* ProductListViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductListViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04D1B92CB14B4200A7AC42 /* ProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04D1C72CB14BC400A7AC42 /* ApiServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04D1D82CB150FB00A7AC42 /* ItemDetailViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemDetailViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04D1E62CB1513B00A7AC42 /* HorizontalCollectionHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalCollectionHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04D1F32CB1515B00A7AC42 /* VerticalCollectionHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalCollectionHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1E79DB2CAD899D002D0646 /* project-akakce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-akakce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1E79F12CAD899F002D0646 /* project-akakceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-akakceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1E79FB2CAD899F002D0646 /* project-akakceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-akakceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BC04D1B42CB14B0600A7AC42 /* Exceptions for "project-akakce" folder in "ProductListViewModelTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppTests/ViewModelTests/ProductListViewModelTests.swift,
+			);
+			target = BC04D1A72CB14AF500A7AC42 /* ProductListViewModelTests */;
+		};
+		BC04D1C22CB14B8100A7AC42 /* Exceptions for "project-akakce" folder in "ProductTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppTests/ModelTests/ProductTests.swift,
+			);
+			target = BC04D1B82CB14B4200A7AC42 /* ProductTests */;
+		};
+		BC04D1D32CB14BC700A7AC42 /* Exceptions for "project-akakce" folder in "ApiServiceTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppTests/ServiceTests/ApiServiceTests.swift,
+			);
+			target = BC04D1C62CB14BC400A7AC42 /* ApiServiceTests */;
+		};
+		BC04D1E12CB1510100A7AC42 /* Exceptions for "project-akakce" folder in "ItemDetailViewModelTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppTests/ViewModelTests/ItemDetailViewModelTests.swift,
+			);
+			target = BC04D1D72CB150FB00A7AC42 /* ItemDetailViewModelTests */;
+		};
+		BC04D1FD2CB1517800A7AC42 /* Exceptions for "project-akakce" folder in "HorizontalCollectionHandlerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppTests/HandlerTests/HorizontalCollectionHandlerTests.swift,
+			);
+			target = BC04D1E52CB1513B00A7AC42 /* HorizontalCollectionHandlerTests */;
+		};
+		BC04D1FE2CB1517800A7AC42 /* Exceptions for "project-akakce" folder in "VerticalCollectionHandlerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppTests/HandlerTests/VerticalCollectionHandlerTests.swift,
+			);
+			target = BC04D1F22CB1515B00A7AC42 /* VerticalCollectionHandlerTests */;
+		};
+		BC1E7A032CAD899F002D0646 /* Exceptions for "project-akakce" folder in "project-akakce" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppTests/HandlerTests/HorizontalCollectionHandlerTests.swift,
+				AppTests/HandlerTests/VerticalCollectionHandlerTests.swift,
+				AppTests/ModelTests/ProductTests.swift,
+				AppTests/ServiceTests/ApiServiceTests.swift,
+				AppTests/ViewModelTests/ItemDetailViewModelTests.swift,
+				AppTests/ViewModelTests/ProductListViewModelTests.swift,
+				Info.plist,
+			);
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BC1E79DD2CAD899D002D0646 /* project-akakce */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BC1E7A032CAD899F002D0646 /* Exceptions for "project-akakce" folder in "project-akakce" target */,
+				BC04D1B42CB14B0600A7AC42 /* Exceptions for "project-akakce" folder in "ProductListViewModelTests" target */,
+				BC04D1C22CB14B8100A7AC42 /* Exceptions for "project-akakce" folder in "ProductTests" target */,
+				BC04D1D32CB14BC700A7AC42 /* Exceptions for "project-akakce" folder in "ApiServiceTests" target */,
+				BC04D1E12CB1510100A7AC42 /* Exceptions for "project-akakce" folder in "ItemDetailViewModelTests" target */,
+				BC04D1FD2CB1517800A7AC42 /* Exceptions for "project-akakce" folder in "HorizontalCollectionHandlerTests" target */,
+				BC04D1FE2CB1517800A7AC42 /* Exceptions for "project-akakce" folder in "VerticalCollectionHandlerTests" target */,
+			);
+			path = "project-akakce";
+			sourceTree = "<group>";
+		};
+		BC1E79F42CAD899F002D0646 /* project-akakceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "project-akakceTests";
+			sourceTree = "<group>";
+		};
+		BC1E79FE2CAD899F002D0646 /* project-akakceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "project-akakceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC04D1A52CB14AF500A7AC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1B62CB14B4200A7AC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1C42CB14BC400A7AC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1D52CB150FB00A7AC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1E32CB1513B00A7AC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1F02CB1515B00A7AC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79D82CAD899D002D0646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3710C62CAEB3DC00B626B6 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79EE2CAD899F002D0646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79F82CAD899F002D0646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1E79D22CAD899D002D0646 = {
+			isa = PBXGroup;
+			children = (
+				BC1E79DD2CAD899D002D0646 /* project-akakce */,
+				BC1E79F42CAD899F002D0646 /* project-akakceTests */,
+				BC1E79FE2CAD899F002D0646 /* project-akakceUITests */,
+				BC3710C42CAEB3DC00B626B6 /* Frameworks */,
+				BC1E79DC2CAD899D002D0646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1E79DC2CAD899D002D0646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E79DB2CAD899D002D0646 /* project-akakce.app */,
+				BC1E79F12CAD899F002D0646 /* project-akakceTests.xctest */,
+				BC1E79FB2CAD899F002D0646 /* project-akakceUITests.xctest */,
+				BC04D1A82CB14AF500A7AC42 /* ProductListViewModelTests.xctest */,
+				BC04D1B92CB14B4200A7AC42 /* ProductTests.xctest */,
+				BC04D1C72CB14BC400A7AC42 /* ApiServiceTests.xctest */,
+				BC04D1D82CB150FB00A7AC42 /* ItemDetailViewModelTests.xctest */,
+				BC04D1E62CB1513B00A7AC42 /* HorizontalCollectionHandlerTests.xctest */,
+				BC04D1F32CB1515B00A7AC42 /* VerticalCollectionHandlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3710C42CAEB3DC00B626B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC04D1A72CB14AF500A7AC42 /* ProductListViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04D1AE2CB14AF500A7AC42 /* Build configuration list for PBXNativeTarget "ProductListViewModelTests" */;
+			buildPhases = (
+				BC04D1A42CB14AF500A7AC42 /* Sources */,
+				BC04D1A52CB14AF500A7AC42 /* Frameworks */,
+				BC04D1A62CB14AF500A7AC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04D1AD2CB14AF500A7AC42 /* PBXTargetDependency */,
+			);
+			name = ProductListViewModelTests;
+			packageProductDependencies = (
+			);
+			productName = ProductListViewModelTests;
+			productReference = BC04D1A82CB14AF500A7AC42 /* ProductListViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC04D1B82CB14B4200A7AC42 /* ProductTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04D1BF2CB14B4200A7AC42 /* Build configuration list for PBXNativeTarget "ProductTests" */;
+			buildPhases = (
+				BC04D1B52CB14B4200A7AC42 /* Sources */,
+				BC04D1B62CB14B4200A7AC42 /* Frameworks */,
+				BC04D1B72CB14B4200A7AC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04D1BE2CB14B4200A7AC42 /* PBXTargetDependency */,
+			);
+			name = ProductTests;
+			packageProductDependencies = (
+			);
+			productName = ProductTests;
+			productReference = BC04D1B92CB14B4200A7AC42 /* ProductTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC04D1C62CB14BC400A7AC42 /* ApiServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04D1CD2CB14BC400A7AC42 /* Build configuration list for PBXNativeTarget "ApiServiceTests" */;
+			buildPhases = (
+				BC04D1C32CB14BC400A7AC42 /* Sources */,
+				BC04D1C42CB14BC400A7AC42 /* Frameworks */,
+				BC04D1C52CB14BC400A7AC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04D1CC2CB14BC400A7AC42 /* PBXTargetDependency */,
+			);
+			name = ApiServiceTests;
+			packageProductDependencies = (
+			);
+			productName = ApiServiceTests;
+			productReference = BC04D1C72CB14BC400A7AC42 /* ApiServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC04D1D72CB150FB00A7AC42 /* ItemDetailViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04D1DE2CB150FB00A7AC42 /* Build configuration list for PBXNativeTarget "ItemDetailViewModelTests" */;
+			buildPhases = (
+				BC04D1D42CB150FB00A7AC42 /* Sources */,
+				BC04D1D52CB150FB00A7AC42 /* Frameworks */,
+				BC04D1D62CB150FB00A7AC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04D1DD2CB150FB00A7AC42 /* PBXTargetDependency */,
+			);
+			name = ItemDetailViewModelTests;
+			packageProductDependencies = (
+			);
+			productName = ItemDetailViewModelTests;
+			productReference = BC04D1D82CB150FB00A7AC42 /* ItemDetailViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC04D1E52CB1513B00A7AC42 /* HorizontalCollectionHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04D1EC2CB1513B00A7AC42 /* Build configuration list for PBXNativeTarget "HorizontalCollectionHandlerTests" */;
+			buildPhases = (
+				BC04D1E22CB1513B00A7AC42 /* Sources */,
+				BC04D1E32CB1513B00A7AC42 /* Frameworks */,
+				BC04D1E42CB1513B00A7AC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04D1EB2CB1513B00A7AC42 /* PBXTargetDependency */,
+			);
+			name = HorizontalCollectionHandlerTests;
+			packageProductDependencies = (
+			);
+			productName = HorizontalCollectionHandlerTests;
+			productReference = BC04D1E62CB1513B00A7AC42 /* HorizontalCollectionHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC04D1F22CB1515B00A7AC42 /* VerticalCollectionHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04D1F92CB1515B00A7AC42 /* Build configuration list for PBXNativeTarget "VerticalCollectionHandlerTests" */;
+			buildPhases = (
+				BC04D1EF2CB1515B00A7AC42 /* Sources */,
+				BC04D1F02CB1515B00A7AC42 /* Frameworks */,
+				BC04D1F12CB1515B00A7AC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04D1F82CB1515B00A7AC42 /* PBXTargetDependency */,
+			);
+			name = VerticalCollectionHandlerTests;
+			packageProductDependencies = (
+			);
+			productName = VerticalCollectionHandlerTests;
+			productReference = BC04D1F32CB1515B00A7AC42 /* VerticalCollectionHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC1E79DA2CAD899D002D0646 /* project-akakce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1E7A042CAD899F002D0646 /* Build configuration list for PBXNativeTarget "project-akakce" */;
+			buildPhases = (
+				BC1E79D72CAD899D002D0646 /* Sources */,
+				BC1E79D82CAD899D002D0646 /* Frameworks */,
+				BC1E79D92CAD899D002D0646 /* Resources */,
+				BC3710CA2CAEB3EC00B626B6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BC1E79DD2CAD899D002D0646 /* project-akakce */,
+			);
+			name = "project-akakce";
+			packageProductDependencies = (
+				BC3710C52CAEB3DC00B626B6 /* Alamofire */,
+			);
+			productName = "project-akakce";
+			productReference = BC1E79DB2CAD899D002D0646 /* project-akakce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1E79F02CAD899F002D0646 /* project-akakceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1E7A092CAD899F002D0646 /* Build configuration list for PBXNativeTarget "project-akakceTests" */;
+			buildPhases = (
+				BC1E79ED2CAD899F002D0646 /* Sources */,
+				BC1E79EE2CAD899F002D0646 /* Frameworks */,
+				BC1E79EF2CAD899F002D0646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1E79F32CAD899F002D0646 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC1E79F42CAD899F002D0646 /* project-akakceTests */,
+			);
+			name = "project-akakceTests";
+			packageProductDependencies = (
+			);
+			productName = "project-akakceTests";
+			productReference = BC1E79F12CAD899F002D0646 /* project-akakceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC1E79FA2CAD899F002D0646 /* project-akakceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1E7A0C2CAD899F002D0646 /* Build configuration list for PBXNativeTarget "project-akakceUITests" */;
+			buildPhases = (
+				BC1E79F72CAD899F002D0646 /* Sources */,
+				BC1E79F82CAD899F002D0646 /* Frameworks */,
+				BC1E79F92CAD899F002D0646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1E79FD2CAD899F002D0646 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC1E79FE2CAD899F002D0646 /* project-akakceUITests */,
+			);
+			name = "project-akakceUITests";
+			packageProductDependencies = (
+			);
+			productName = "project-akakceUITests";
+			productReference = BC1E79FB2CAD899F002D0646 /* project-akakceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1E79D32CAD899D002D0646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BC04D1A72CB14AF500A7AC42 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+					BC04D1B82CB14B4200A7AC42 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+					BC04D1C62CB14BC400A7AC42 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+					BC04D1D72CB150FB00A7AC42 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+					BC04D1E52CB1513B00A7AC42 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+					BC04D1F22CB1515B00A7AC42 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+					BC1E79DA2CAD899D002D0646 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BC1E79F02CAD899F002D0646 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+					BC1E79FA2CAD899F002D0646 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC1E79DA2CAD899D002D0646;
+					};
+				};
+			};
+			buildConfigurationList = BC1E79D62CAD899D002D0646 /* Build configuration list for PBXProject "project-akakce" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1E79D22CAD899D002D0646;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BC1E7A0F2CAD89D0002D0646 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BC1E79DC2CAD899D002D0646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1E79DA2CAD899D002D0646 /* project-akakce */,
+				BC1E79F02CAD899F002D0646 /* project-akakceTests */,
+				BC1E79FA2CAD899F002D0646 /* project-akakceUITests */,
+				BC04D1A72CB14AF500A7AC42 /* ProductListViewModelTests */,
+				BC04D1B82CB14B4200A7AC42 /* ProductTests */,
+				BC04D1C62CB14BC400A7AC42 /* ApiServiceTests */,
+				BC04D1D72CB150FB00A7AC42 /* ItemDetailViewModelTests */,
+				BC04D1E52CB1513B00A7AC42 /* HorizontalCollectionHandlerTests */,
+				BC04D1F22CB1515B00A7AC42 /* VerticalCollectionHandlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC04D1A62CB14AF500A7AC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1B72CB14B4200A7AC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1C52CB14BC400A7AC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1D62CB150FB00A7AC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1E42CB1513B00A7AC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1F12CB1515B00A7AC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79D92CAD899D002D0646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79EF2CAD899F002D0646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79F92CAD899F002D0646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC04D1A42CB14AF500A7AC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1B52CB14B4200A7AC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1C32CB14BC400A7AC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1D42CB150FB00A7AC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1E22CB1513B00A7AC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04D1EF2CB1515B00A7AC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79D72CAD899D002D0646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79ED2CAD899F002D0646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E79F72CAD899F002D0646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC04D1AD2CB14AF500A7AC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC04D1AC2CB14AF500A7AC42 /* PBXContainerItemProxy */;
+		};
+		BC04D1BE2CB14B4200A7AC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC04D1BD2CB14B4200A7AC42 /* PBXContainerItemProxy */;
+		};
+		BC04D1CC2CB14BC400A7AC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC04D1CB2CB14BC400A7AC42 /* PBXContainerItemProxy */;
+		};
+		BC04D1DD2CB150FB00A7AC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC04D1DC2CB150FB00A7AC42 /* PBXContainerItemProxy */;
+		};
+		BC04D1EB2CB1513B00A7AC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC04D1EA2CB1513B00A7AC42 /* PBXContainerItemProxy */;
+		};
+		BC04D1F82CB1515B00A7AC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC04D1F72CB1515B00A7AC42 /* PBXContainerItemProxy */;
+		};
+		BC1E79F32CAD899F002D0646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC1E79F22CAD899F002D0646 /* PBXContainerItemProxy */;
+		};
+		BC1E79FD2CAD899F002D0646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E79DA2CAD899D002D0646 /* project-akakce */;
+			targetProxy = BC1E79FC2CAD899F002D0646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC04D1AF2CB14AF500A7AC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ProductListViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Debug;
+		};
+		BC04D1B02CB14AF500A7AC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ProductListViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Release;
+		};
+		BC04D1C02CB14B4200A7AC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Debug;
+		};
+		BC04D1C12CB14B4200A7AC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Release;
+		};
+		BC04D1CE2CB14BC400A7AC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ApiServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Debug;
+		};
+		BC04D1CF2CB14BC400A7AC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ApiServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Release;
+		};
+		BC04D1DF2CB150FB00A7AC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ItemDetailViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Debug;
+		};
+		BC04D1E02CB150FB00A7AC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.ItemDetailViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Release;
+		};
+		BC04D1ED2CB1513B00A7AC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.HorizontalCollectionHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Debug;
+		};
+		BC04D1EE2CB1513B00A7AC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.HorizontalCollectionHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Release;
+		};
+		BC04D1FA2CB1515B00A7AC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.VerticalCollectionHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Debug;
+		};
+		BC04D1FB2CB1515B00A7AC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdirik.VerticalCollectionHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Release;
+		};
+		BC1E7A052CAD899F002D0646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "project-akakce/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enesdirik.project-akakce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC1E7A062CAD899F002D0646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "project-akakce/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enesdirik.project-akakce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC1E7A072CAD899F002D0646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1E7A082CAD899F002D0646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1E7A0A2CAD899F002D0646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enesdirik.project-akakceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Debug;
+		};
+		BC1E7A0B2CAD899F002D0646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enesdirik.project-akakceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-akakce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-akakce";
+			};
+			name = Release;
+		};
+		BC1E7A0D2CAD899F002D0646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enesdirik.project-akakceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "project-akakce";
+			};
+			name = Debug;
+		};
+		BC1E7A0E2CAD899F002D0646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV4WKX3464;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enesdirik.project-akakceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "project-akakce";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC04D1AE2CB14AF500A7AC42 /* Build configuration list for PBXNativeTarget "ProductListViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04D1AF2CB14AF500A7AC42 /* Debug */,
+				BC04D1B02CB14AF500A7AC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04D1BF2CB14B4200A7AC42 /* Build configuration list for PBXNativeTarget "ProductTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04D1C02CB14B4200A7AC42 /* Debug */,
+				BC04D1C12CB14B4200A7AC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04D1CD2CB14BC400A7AC42 /* Build configuration list for PBXNativeTarget "ApiServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04D1CE2CB14BC400A7AC42 /* Debug */,
+				BC04D1CF2CB14BC400A7AC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04D1DE2CB150FB00A7AC42 /* Build configuration list for PBXNativeTarget "ItemDetailViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04D1DF2CB150FB00A7AC42 /* Debug */,
+				BC04D1E02CB150FB00A7AC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04D1EC2CB1513B00A7AC42 /* Build configuration list for PBXNativeTarget "HorizontalCollectionHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04D1ED2CB1513B00A7AC42 /* Debug */,
+				BC04D1EE2CB1513B00A7AC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04D1F92CB1515B00A7AC42 /* Build configuration list for PBXNativeTarget "VerticalCollectionHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04D1FA2CB1515B00A7AC42 /* Debug */,
+				BC04D1FB2CB1515B00A7AC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E79D62CAD899D002D0646 /* Build configuration list for PBXProject "project-akakce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E7A072CAD899F002D0646 /* Debug */,
+				BC1E7A082CAD899F002D0646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E7A042CAD899F002D0646 /* Build configuration list for PBXNativeTarget "project-akakce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E7A052CAD899F002D0646 /* Debug */,
+				BC1E7A062CAD899F002D0646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E7A092CAD899F002D0646 /* Build configuration list for PBXNativeTarget "project-akakceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E7A0A2CAD899F002D0646 /* Debug */,
+				BC1E7A0B2CAD899F002D0646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E7A0C2CAD899F002D0646 /* Build configuration list for PBXNativeTarget "project-akakceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E7A0D2CAD899F002D0646 /* Debug */,
+				BC1E7A0E2CAD899F002D0646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC1E7A0F2CAD89D0002D0646 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC3710C52CAEB3DC00B626B6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC1E7A0F2CAD89D0002D0646 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC1E79D32CAD899D002D0646 /* Project object */;
+}
